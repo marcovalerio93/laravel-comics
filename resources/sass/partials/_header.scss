@@ -28,4 +28,12 @@ header{
             }
         }
     }
-  }
+}
+.jumbo{
+    background-image: url("../../../public/images/jumbotron.jpg") ;
+    padding: 30px;
+    h1{
+        color: #fff;
+        text-align: center;
+    }
+}

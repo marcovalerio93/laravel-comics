@@ -1,5 +1,5 @@
 <footer> 
-    <div>
+    <div class="footer">
         <ul>
             <h3>DC COMICS</h3>
             <li>Charater</li>

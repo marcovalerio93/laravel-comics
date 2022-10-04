@@ -40,7 +40,17 @@ header ul li a:hover {
   color: #0c7cec;
 }
 
-div {
+.jumbo {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  padding: 30px;
+}
+
+.jumbo h1 {
+  color: #fff;
+  text-align: center;
+}
+
+div.footer {
   height: 480px;
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
   display: flex;
@@ -48,17 +58,48 @@ div {
   font-family: sans-serif;
 }
 
-div ul {
+div.footer ul {
   list-style: none;
   margin: 20px;
   padding-top: 10px;
 }
 
-div ul h3 {
+div.footer ul h3 {
   color: #fff;
 }
 
-div ul li {
+div.footer ul li {
   color: gray;
+}
+
+.products {
+  background-color: #474646;
+}
+
+.products h1 {
+  text-align: center;
+  color: #fff;
+  padding: 30px 0px;
+}
+
+.products .container {
+  min-height: 300px;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 15%;
+  padding: 10px;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #fff;
 }
 
