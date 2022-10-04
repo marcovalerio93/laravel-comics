@@ -3,34 +3,34 @@
     <nav>
         <ul>
             <li>
-                <a :href="{{route('CHARATERS')}}">CHARATERS</a>
+                <a href="{{route('home')}}">CHARATERS</a>
             </li>
             <li>
-                <a :href="{{route('COMICS')}}">COMICS</a>
+                <a href="{{route('comics')}}">COMICS</a>
             </li>
             <li>
-                <a :href="{{route('MOVIES')}}">MOVIES</a>
+                <a href="">MOVIES</a>
             </li>
             <li>
-                <a :href="{{route('TV')}}">TV</a>
+                <a href="">TV</a>
             </li>
             <li>
-                <a :href="{{route('GAMES')}}">GAMES</a>
+                <a href="">GAMES</a>
             </li>
             <li>
-                <a :href="{{route('COLLECTIBELS')}}">COLLECTIBELS</a>
+                <a href="">COLLECTIBELS</a>
             </li>
             <li>
-                <a :href="{{route('VIDEOS')}}">VIDEOS</a>
+                <a href="">VIDEOS</a>
             </li>
             <li>
-                <a :href="{{route('FANS')}}">FANS</a>
+                <a href="">FANS</a>
             </li>
             <li>
-                <a :href="{{route('NEWS')}}">NEWS</a>
+                <a href="{{route('news')}}">NEWS</a>
             </li>
             <li>
-                <a :href="{{route('SHOP')}}">SHOP</a>
+                <a href="">SHOP</a>
             </li>
         </ul>
     </nav>
